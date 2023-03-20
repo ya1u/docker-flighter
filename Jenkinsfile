@@ -39,15 +39,12 @@ pipeline {
             }
         }
 
-        
+
         stage('Build') {
             steps {
                 sh 'cd $WORK_SPACE/docker-flighter/flighter-backend && ./gradlew clean build -x test'
             }
         }
-
-
-
 
         stage('Deploy') {
             steps {
