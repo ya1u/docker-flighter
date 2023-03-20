@@ -1,4 +1,4 @@
-FROM yalu/node18
+FROM yalu001/node18
 
 WORKDIR /flighter-frontend
 

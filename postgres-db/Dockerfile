@@ -1,1 +1,1 @@
-FROM yalu/postgres
+FROM yalu001/postgres
