@@ -8,7 +8,7 @@ pipeline {
     }
     environment {
         WORK_SPACE = "/home/yalu/Desktop/agent/workspace"
-        BASE_URL = "http://10.211.55.3"
+        BASE_URL = "http://20.249.0.81"
         JAVA_HOME = "/home/yalu/agent/tools/hudson.model.JDK/jdk17-agent" // JDK가 설치된 경로에 맞게 설정
         PATH = "$JAVA_HOME/bin:$PATH"
         ACCESS_TOKEN = ""
