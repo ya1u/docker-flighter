@@ -34,7 +34,7 @@ public class SampleApplicationRunner implements ApplicationRunner {
 
                 Users user = Users.builder()
                         .id(1L)
-                        .email("poqwer95@naver.com")
+                        .email("yalu001@naver.com")
                         .password("todnqjrj1!")
                         .name("고광근")
                         .birth(LocalDate.of(1995, 7, 4))
