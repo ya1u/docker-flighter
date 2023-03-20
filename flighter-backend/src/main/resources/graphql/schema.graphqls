@@ -1,0 +1,22 @@
+type User {
+    id: ID!
+    sub: String!
+    email: String!
+    name: String!
+    picture: String!
+}
+
+type TokenInfo {
+    grantType: String!
+    accessToken: String!
+    refreshToken: String!
+}
+
+type Query{
+    getUserById(id: ID!): User
+    getUsers: [User]
+}
+
+type Mutation {
+    saveOrLoginUserByGoogle(sub: String!, email: String!, name: String!, picture: String!): TokenInfo!
+}

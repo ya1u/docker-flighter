@@ -1,0 +1,5 @@
+# application datasource 정보는 application-dev.yml 보안문제로 .gitignore 되있음
+
+spring:
+  profiles:
+    active: common, dev
