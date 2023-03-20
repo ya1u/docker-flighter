@@ -13,6 +13,9 @@ pipeline {
         PATH = "$JAVA_HOME/bin:$PATH"
         ACCESS_TOKEN = ""
     }
+
+
+
     stages {
         // stage('Test Backend') {
         //     steps {
