@@ -1,1 +1,1 @@
-FROM ssuperj/postgres
+FROM yalu/postgres

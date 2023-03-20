@@ -1,4 +1,4 @@
-FROM ssuperj/node18
+FROM yalu/node18
 
 WORKDIR /flighter-frontend
 
