@@ -25,7 +25,7 @@ function CopyRIght() {
   return (
     <FooterCopyWrap>
       <p>&#169; 2023 Copyright Flighter</p>
-      <Link to="https://github.com/ssuperj/docker-flighter">
+      <Link to="https://github.com/ya1u/docker-flighter">
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </Link>
       <Link to="https://www.google.com/search?q=flighter">
@@ -34,7 +34,7 @@ function CopyRIght() {
       <ModalParam
         render={() => <FontAwesomeIcon icon={faEnvelope} size="2x" />}
         title="Official Email"
-        content="Hello, send email here! poqwer95@naver.com"
+        content="Hello, send email here! yalu001@naver.com"
         btnContent="Copy"
       ></ModalParam>
     </FooterCopyWrap>

@@ -17,7 +17,7 @@ function ModalParam(props: any) {
   const [show, setShow] = useState(false);
 
   const handleShow = () => setShow(true);
-  const EMAIL = "poqwer95@naver.com";
+  const EMAIL = "yalu001@naver.com";
   const copyText = () => navigator.clipboard.writeText(EMAIL);
   const handleClose = (): void => {
     copyText();

@@ -34,9 +34,6 @@ pipeline {
 
         stage('PreBuild') {
             steps {
-                sh 'whoami'
-                sh 'java -version'
-                sh 'gradle --version'
                 sh 'docker compose down'
                 sh 'docker rmi -f docker-flighter-postgres'
                 sh 'docker rmi -f docker-flighter-frontend'
