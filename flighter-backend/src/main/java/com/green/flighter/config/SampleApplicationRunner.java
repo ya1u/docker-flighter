@@ -36,7 +36,7 @@ public class SampleApplicationRunner implements ApplicationRunner {
                         .email("yalu001@naver.com")
                         .password("todnqjrj1!")
                         .name("박정흠")
-                        .birth(LocalDate.of(1996, 6, 18))
+                        .birth(LocalDate.of(1996, 6,18))
                         .sexType(SexType.MALE)
                         .roleType(RoleType.USER)
                         .tickets(new ArrayList<>())
