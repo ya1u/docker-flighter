@@ -29,6 +29,7 @@ public class SampleApplicationRunner implements ApplicationRunner {
         private final SeatService seatService;
 
 
+
         @Override
         public void run(ApplicationArguments args) throws Exception {
 
