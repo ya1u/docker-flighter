@@ -28,8 +28,6 @@ public class SampleApplicationRunner implements ApplicationRunner {
         private final TicketService ticketService;
         private final SeatService seatService;
 
-
-
         @Override
         public void run(ApplicationArguments args) throws Exception {
 
@@ -38,7 +36,7 @@ public class SampleApplicationRunner implements ApplicationRunner {
                         .email("yalu001@naver.com")
                         .password("todnqjrj1!")
                         .name("박정흠")
-                        .birth(LocalDate.of(1995, 7, 4))
+                        .birth(LocalDate.of(1996, 6, 18))
                         .sexType(SexType.MALE)
                         .roleType(RoleType.USER)
                         .tickets(new ArrayList<>())
